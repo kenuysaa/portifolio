@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #171717; 
+    color: #fff; 
+}
+
+header.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+} a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    transition: transform 0.2s;
+} a:hover {
+    transform: scale(1.1);
+} h1 {
+    font-size: 30px;
+}
+
+.perfil img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #ddd;
+    flex-shrink: 0;
+}
+
+.informacoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 60px;
+}
+
+.dados {
+    max-width: 600px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    margin-top: 40px;
+}
+footer a {
+    color: #1E90FF;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: #171717;
+    padding: 40px 0;
+}
+
+.contato form {
+    background: transparent;
+    color: inherit;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contato input,
+.contato textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #171717;
+    background: #f5f5f5;
+}
+
+.contato button {
+    background: #171717;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.contato button:hover {
+    background: #333;
+}
